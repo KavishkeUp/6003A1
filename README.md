@@ -22,7 +22,7 @@ HTML, CSS, JavaScript (Frontend)
 🚀 Setup & Installation
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/mega-city-cab.git](https://github.com/KavishkeUp/6003A1.git
+git clone https://github.com/KavishkeUp/6003A1.git
 cd mega-city-cab
 
 2️⃣ Open in NetBeans
