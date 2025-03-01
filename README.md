@@ -22,7 +22,7 @@ HTML, CSS, JavaScript (Frontend)
 🚀 Setup & Installation
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/mega-city-cab.git
+git clone https://github.com/your-username/mega-city-cab.git](https://github.com/KavishkeUp/6003A1.git
 cd mega-city-cab
 
 2️⃣ Open in NetBeans
@@ -30,7 +30,16 @@ Open NetBeans IDE.
 Click File → Open Project and select the folder.
 Ensure Apache Tomcat is installed and configured.
 
-3️⃣ Run the Application
+3️⃣ Create Required Data Files
+Before running the application, create the following text files at the specified locations:
+
+📂 D:\ICBT
+
+📄 Bookings.txt → Stores all cab booking records.
+📄 Customers.txt → Stores registered customer details.
+📄 DriverDetails.txt → Stores driver assignments and details.
+
+4️⃣ Run the Application
 Start Apache Tomcat in NetBeans.
 Open your browser and visit:
 http://localhost:8080/MegaCityCabs
