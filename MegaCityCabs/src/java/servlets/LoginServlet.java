@@ -18,7 +18,9 @@ public class LoginServlet extends HttpServlet {
         String password = request.getParameter("password");
 
         // Hardcoded credentials (Replace this with database validation)
-        if ("admin".equals(username) && "password123".equals(password)) {
+        if (("admin".equals(username) && "password123".equals(password)) || 
+            ("User".equals(username) && "user123".equals(password))) {
+            
             HttpSession session = request.getSession();
             session.setAttribute("username", username);
             response.sendRedirect("dashboard.jsp");  // Redirect to dashboard if login is successful
