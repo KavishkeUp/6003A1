@@ -1,4 +1,4 @@
-package servlets;
+package com.megacitycabs.servlet.Bills;
 
 import java.io.*;
 import javax.servlet.ServletException;

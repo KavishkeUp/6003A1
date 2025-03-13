@@ -1,4 +1,4 @@
-package servlets;
+package com.megacitycabs.servlet.Logins;
 
 import java.io.IOException;
 import java.io.PrintWriter;

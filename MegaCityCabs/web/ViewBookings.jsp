@@ -4,16 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View Bookings</title>
-    <!-- Include Bootstrap CSS from CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>View Bookings | Mega City Cab</title>
+    
+    <!-- Bootstrap & FontAwesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0c097;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+        .table {
+            background-color: #292929;
+            color: #e0c097;
+        }
+        .table th, .table td {
+            border: 1px solid #e0c097;
+        }
+        .table th {
+            background-color: #1c1c1c;
+            color: #e0c097;
+        }
+        .table td {
+            background-color: #292929;
+            color: white;
+        }
+        .btn-custom {
+            background-color: #c89b3c;
+            color: black;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #e0c097;
+            color: white;
+        }
+        .btn-secondary {
+            background-color: #1c1c1c;
+            color: #e0c097;
+            border: none;
+        }
+        .btn-secondary:hover {
+            background-color: #292929;
+            color: white;
+        }
+        .btn-success {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .btn-success:hover {
+            background-color: #45a049;
+        }
+        .btn-primary {
+            background-color: #1c1c1c;
+            color: #e0c097;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #292929;
+            color: white;
+        }
+        footer {
+            background-color: #1c1c1c;
+            color: #e0c097;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer a {
+            color: #e0c097;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: white;
+        }
+        .btn-container {
+            margin-bottom: 50px; /* Increase the gap between footer and buttons */
+        }
+    </style>
 </head>
 <body>
 
     <div class="container mt-5">
         <h2 class="text-center">Booking Records</h2>
         <table class="table table-bordered table-striped">
-            <thead class="thead-dark">
+            <thead>
                 <tr>
                     <th>Booking No</th>
                     <th>Customer Name</th>
@@ -69,15 +151,21 @@
             </tbody>
         </table>
 
-        <div class="text-center mt-4">
+        <div class="text-center mt-4 btn-container">
             <a href="NewBooking.jsp" class="btn btn-success">New Booking</a>
             <a href="dashboard.jsp" class="btn btn-secondary">Back to Dashboard</a>
         </div>
     </div>
 
-    <!-- Include Bootstrap JS and Popper.js from CDN (optional for better functionality) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mega City Cab. All rights reserved.</p>
+        <p>Follow us on <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a> | 
+           <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a> | 
+           <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

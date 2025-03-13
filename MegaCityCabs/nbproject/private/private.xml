@@ -3,28 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/nbproject/build-impl.xml</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/ManageDrivers.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/ViewDriversServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/ViewCustomers.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/index.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/Help.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/Login.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/dashboard.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/RegisterCustomer.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/LogoutServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/DeleteBookingServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/DeleteCustomerServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/EditCustomerServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/GenerateBillServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/LoginServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/RegisterCustomerServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/NewBookingServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/ViewBookings.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/NewBooking.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/src/java/servlets/ManageDriversServlet.java</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/EditCustomer.jsp</file>
-            <file>file:/C:/Users/KavishkeSamarasena/Documents/NetBeansProjects/MegaCityCabs/web/ViewDrivers.jsp</file>
+            <file>file:/D:/ICBT/Projects/MegaCityCabs/web/ViewBookings.jsp</file>
         </group>
     </open-files>
 </project-private>

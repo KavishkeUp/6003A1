@@ -4,57 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View Customers</title>
+    <title>View Customers | Mega City Cab</title>
+    
+    <!-- Bootstrap & FontAwesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #121212;
+            color: #e0c097;
             margin: 0;
             padding: 0;
         }
+
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
+            background-color: #1c1c1c;
+            color: #e0c097;
+            padding: 15px 0;
             text-align: center;
+            font-size: 24px;
         }
+
         h2 {
-            color: #333;
+            color: #e0c097;
             text-align: center;
+            margin-top: 30px;
         }
+
         table {
             width: 80%;
             margin: 20px auto;
             border-collapse: collapse;
-            background-color: white;
+            background-color: #292929;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
+
         th, td {
             padding: 12px;
             text-align: left;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid #e0c097;
         }
+
         th {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #1c1c1c;
+            color: #e0c097;
         }
+
         tr:hover {
-            background-color: #f1f1f1;
+            background-color: #333;
         }
+
         a {
-            color: #4CAF50;
+            color: #e0c097;
             text-decoration: none;
             padding: 5px;
             border-radius: 4px;
         }
+
         a:hover {
-            background-color: #4CAF50;
+            background-color: #c89b3c;
             color: white;
         }
-        .actions {
-            display: flex;
-            gap: 10px;
-        }
+
         .actions a {
             background-color: #f44336;
             color: white;
@@ -62,16 +75,29 @@
             border-radius: 4px;
             transition: background-color 0.3s;
         }
+
         .actions a:hover {
             background-color: #d32f2f;
         }
+
         footer {
+            background-color: #1c1c1c;
+            color: #e0c097;
+            padding: 20px 0;
             text-align: center;
-            padding: 10px;
-            background-color: #333;
+            margin-top: 50px;  /* Increased gap between footer and buttons */
+        }
+
+        footer a {
+            color: #e0c097;
+            text-decoration: none;
+        }
+
+        footer a:hover {
             color: white;
         }
     </style>
+
     <script>
         function confirmDelete(customerNo) {
             if (confirm("Are you sure you want to delete this customer?")) {
@@ -80,6 +106,7 @@
         }
     </script>
 </head>
+
 <body>
 
 <header>
@@ -125,12 +152,15 @@
 </table>
 
 <div style="text-align: center;">
-    <a href="RegisterCustomer.jsp" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px;">New Customer</a>
-    <a href="dashboard.jsp" style="background-color: #008CBA; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px;">Back to Dashboard</a>
+    <a href="RegisterCustomer.jsp" style="background-color: #c89b3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px;">New Customer</a>
+    <a href="dashboard.jsp" style="background-color: #999999; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px;">Back to Dashboard</a>
 </div>
 
 <footer>
     <p>&copy; 2025 Mega City Cab. All rights reserved.</p>
+    <p>Follow us on <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a> | 
+       <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a> | 
+       <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></p>
 </footer>
 
 </body>
